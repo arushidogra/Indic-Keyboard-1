@@ -16,6 +16,9 @@
 
 package in.androidtweak.inputmethod.indic.userdictionary;
 
+import com.android.inputmethod.latin.R;
+import com.android.inputmethod.latin.common.LocaleUtils;
+
 import android.content.Context;
 import android.text.TextUtils;
 

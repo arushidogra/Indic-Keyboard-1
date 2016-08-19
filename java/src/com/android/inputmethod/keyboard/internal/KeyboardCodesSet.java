@@ -16,6 +16,8 @@
 
 package com.android.inputmethod.keyboard.internal;
 
+import com.android.inputmethod.latin.common.Constants;
+
 import java.util.HashMap;
 
 import in.androidtweak.inputmethod.indic.Constants;

@@ -16,9 +16,7 @@
 
 package in.androidtweak.inputmethod.indic;
 
-import java.io.File;
-
-import com.android.inputmethod.latin.utils.FileUtils;
+import com.android.inputmethod.latin.common.FileUtils;
 
 /**
  * Immutable class to hold the address of an asset.
@@ -61,5 +59,10 @@ public final class AssetFileAddress {
 
     public void deleteUnderlyingFile() {
         FileUtils.deleteRecursively(new File(mFilename));
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s (offset=%d, length=%d)", mFilename, mOffset, mLength);
     }
 }

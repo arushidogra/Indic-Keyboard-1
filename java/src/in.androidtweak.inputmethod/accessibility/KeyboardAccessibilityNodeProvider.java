@@ -31,6 +31,9 @@ import android.view.inputmethod.EditorInfo;
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.KeyboardView;
+import com.android.inputmethod.latin.common.CoordinateUtils;
+import com.android.inputmethod.latin.settings.Settings;
+import com.android.inputmethod.latin.settings.SettingsValues;
 
 import java.util.List;
 
@@ -330,9 +333,8 @@ final class KeyboardAccessibilityNodeProvider<KV extends KeyboardView>
         if (currentSettings.isWordSeparator(key.getCode())) {
             return mAccessibilityUtils.getAutoCorrectionDescription(
                     keyCodeDescription, shouldObscure);
-        } else {
-            return keyCodeDescription;
         }
+        return keyCodeDescription;
     }
 
     /**

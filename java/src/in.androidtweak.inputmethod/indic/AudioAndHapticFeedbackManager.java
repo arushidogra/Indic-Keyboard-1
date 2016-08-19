@@ -22,7 +22,8 @@ import android.os.Vibrator;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import in.androidtweak.inputmethod.indic.settings.SettingsValues;
+import com.android.inputmethod.latin.common.Constants;
+import com.android.inputmethod.latin.settings.SettingsValues;
 
 /**
  * This class gathers audio feedback and haptic feedback functions.
