@@ -23,7 +23,7 @@
     xmlns:latin="http://schemas.android.com/apk/res-auto">
     <Element
         latin:elementName="alphabet"
-        latin:elementKeyboard="@xml/kbd_swiss"
+        latin:elementKeyboard="@xml/kbd_manipuri_inscript"
         latin:enableProximityCharsCorrection="true"
         latin:allowRedundantMoreKeys="true" />
     <Element

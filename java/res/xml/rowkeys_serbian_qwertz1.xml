@@ -18,8 +18,8 @@
 */
 -->
 
-<merge xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin" >
-    <include latin:keyboardLayout="@xml/rowkeys_qwertz1" />
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto" >
+    <include latin:keyboardLayout="@xml/rows_bengali_akkhor" />
     <!-- U+0161: "š" LATIN SMALL LETTER S WITH CARON -->
     <Key latin:keySpec="&#x0161;" />
 </merge>

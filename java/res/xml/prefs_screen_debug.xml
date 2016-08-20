@@ -19,7 +19,7 @@
     xmlns:latin="http://schemas.android.com/apk/res-auto"
     android:title="@string/prefs_debug_mode"
     android:key="english_ime_debug_settings"
->
+    >
     <CheckBoxPreference
         android:key="debug_mode"
         android:title="@string/prefs_debug_mode"
